@@ -1,0 +1,96 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1faee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  font-family: Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #f1faee;
+  background-image: url('https://www.sp.senac.br/documents/51838645/51838647/fotografia_.jpg/db47d630-c79e-5654-ab68-d37753fa2249?version=1.0&t=1663166321381');
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  background-color: rgba(230, 57, 70, 1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+header, section {
+    padding: 20px;
+}
+
+#crisFotografia {
+    font-size: 40px;
+}
+
+#work {
+    font-size: 24px;
+    text-align: center;
+}
+
+#gallery {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 80vw;
+  max-height: 80vh; 
+  height: auto;
+  padding: 5px;
+  margin: 10px auto; 
+  display: block; 
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.imageProduct {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+#advantages, #contact {
+  background-color: #a8dadc;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #f1faee;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #457b9d;
+    color: #f1faee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+footer {
+  padding: 10px;
+  background-color: #1d3557;
+  color: #f1faee;
+}
